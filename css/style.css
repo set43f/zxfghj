@@ -385,11 +385,10 @@ color: #FFFFFF;
   /* border: 2px solid red; */
 }
 
-.y {
-
-    display: grid;
-    grid-template-columns: repeat(11,1fr);
-    justify-content: space-between;
+.p {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .th {
@@ -589,7 +588,7 @@ color: #FFFFFF;
 @media all and (min-width: 480px) and (max-width: 768px) { 
 
 } 
-@media all and (max-width: 500px) 
+@media all and (max-width: 479px) 
 {
     body {
         font-size: 5px;
@@ -602,13 +601,67 @@ color: #FFFFFF;
         line-height: 30px;
         padding-top: 30px;
     }
+
+    .f h1 {
+        padding: 0px;
+        line-height: 50px;
+    }
+
+    .ce {
+        margin-top: 10px;
+        padding: 0px;
+        text-align: left;
+    }
+
+    .bul h1 {
+        margin: 0px;
+        text-align: left;
+    }
+
+    .po p {
+        font-size: 12px;
+        padding-bottom: 10px;
+    }
+
+
+    .font {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .th h2{
+        margin: 0px;
+        padding-top: 10px;
+        
+    }
+
+    .q {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 20px 0px;
+    }
+
+    .vp {
+        flex-direction: column;
+    }
+
+    .et {
+        padding-top: 10px;
+    }
+
+    .ll {
+        grid-template-columns: repeat(1,1fr);
+    }
+
+    .kk {
+        border: 1px solid grey;
+    }
+
     .hi h1 {
         line-height: 10px;
         padding-top: 10px;
     }
     .hi h2 {
-        line-height: 10px;
-        padding-top: 10px;
+        line-height: 200px;
+        padding-top: 15px;
     }
     .hi p {
         line-height: 10px;
@@ -618,4 +671,9 @@ color: #FFFFFF;
         flex-direction: column;
         flex-wrap: wrap;
     }
+    .pod {
+        padding: 57px 0px;
+        grid-template-columns: repeat(2,1fr);
+        grid-gap: 32px 30px;
+        }
 }
