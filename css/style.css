@@ -610,7 +610,12 @@ color: #FFFFFF;
     .ce {
         margin-top: 10px;
         padding: 0px;
-        text-align: left;
+        text-align: center;
+    }
+
+    .i h2 {
+        margin: 0px;
+        text-align: center;
     }
 
     .bul h1 {
@@ -637,6 +642,11 @@ color: #FFFFFF;
     .q {
         grid-template-columns: repeat(1,1fr);
         grid-gap: 20px 0px;
+    }
+
+    .ivan {
+        grid-template-columns: repeat(1,1fr);
+        grid-gap: 10px;
     }
 
     .vp {
